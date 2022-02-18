@@ -27,4 +27,8 @@ int GetElem(SqList *L, int position, ElemType *elem);
  
 int ListInsert(SqList *L,int position,ElemType elem);
 
+int ListLocate(SqList *L,ElemType elem);
+
 int ListTraverse(SqList *L); 
+
+int UnionList(SqList *L1,SqList *L2);

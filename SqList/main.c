@@ -39,8 +39,12 @@ int main(void){
 		printf("L2 Initial fail!\n");		
 	ListTraverse(&L2);
 	
+	//ºÏ²¢ L1 L2
 	
-	
+	if(UnionList(&L1,&L2))
+		printf("List Union fail!\n");
+	ListTraverse(&L1);	
+		
 	return 0;
 }
 
